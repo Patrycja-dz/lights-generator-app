@@ -1,6 +1,7 @@
 const Minus = ({ onDecrement }) => {
   return (
     <svg
+      aria-label="Decrement value"
       onClick={onDecrement}
       width="24"
       height="24"

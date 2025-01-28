@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <nav className="nav">
-        <Text className="counter">0 bulbs</Text>
+        <Text>0 bulbs</Text>
         <Counter text="rows" />
         <Counter text="columns" />
       </nav>

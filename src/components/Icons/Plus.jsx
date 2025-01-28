@@ -3,6 +3,7 @@ import React from "react";
 export const Plus = ({ onIncrement }) => {
   return (
     <svg
+      aria-label="Increment value"
       onClick={onIncrement}
       width="24"
       height="24"
